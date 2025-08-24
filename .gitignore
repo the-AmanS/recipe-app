@@ -1,0 +1,100 @@
+# ------------------------
+# Flutter / Dart
+# ------------------------
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-dependencies
+.flutter-plugins
+.metadata
+
+# ------------------------
+# IDE / Editor Files
+# ------------------------
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+.vscode/settings.json
+.vscode/launch.json
+*.swp
+*.class
+*.log
+*.pyc
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# ------------------------
+# Platform Specific
+# ------------------------
+# iOS
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/.last_build_id
+/ios/Runner/GoogleService-Info.plist
+/ios
+# Android
+/android/.gradle/
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/app/google-services.json
+/android
+# macOS
+macos/Flutter/GeneratedPluginRegistrant.*
+linux
+macos
+test
+windows
+web
+analysis_options.yaml
+devtools_options.yaml
+pubspec.lock
+
+# Windows
+windows/Flutter/ephemeral/
+
+# Linux
+linux/Flutter/ephemeral/
+
+# Web
+web/manifest.json
+web/favicon.png
+/web/firebase-config.js
+
+# ------------------------
+# Firebase / API Keys / Secrets
+# ------------------------
+firebase_options.dart
+**/firebase_options.dart
+.env
+.env.local
+.env.development
+.env.production
+*.pem
+*.key
+*-service-account.json
+*-firebase-adminsdk-*.json
+.firebase/
+.firebase/hosting.*.cache
+/firebase-debug.log
+/firestore-debug.log
+/ui-debug.log
+/firebase-export
+
+# ------------------------
+# Miscellaneous / Build Artifacts
+# ------------------------
+**/doc/api/
+app.*.symbols
+app.*.map.json
